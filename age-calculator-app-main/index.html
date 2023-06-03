@@ -16,8 +16,21 @@
   </style>
 </head>
 <body>
-
-  Day
+  <div class="wrapper">
+    <div class="container">
+      <div class="header-container">
+        <!-- This heading also notifies about the theme change.-->
+        <h1 id="toast">Calculator</h1>
+        <div class="top-buttons">
+          <a href="https://github.com/zxcodes/JavaScript-Calculator">
+            <img src="assets/GitHubLight.svg" alt="Sun Icon" height="22.5" width="22.5" id="github-icon">
+          </a>
+          <button type="button" onclick="changeTheme()" class="theme-button">
+            <img src="assets/SunIcon.svg" alt="Theme Icon" height="19" width="19" id="theme-icon">
+          </button>
+        </div>
+      </div>
+      Day
   DD
 
   Month
@@ -29,7 +42,12 @@
   -- years
   -- months
   -- days
-  
+   <div id="main_container">
+    <div id="birth_date_input">Birth Date: <input type="date" id="birth_date"></div>
+    <br />
+    <div id="calculate">Calculate your age</div>
+    <div id="age_container"><span id="exact_age">Age</span></div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">LILIAN PETER</a>.
