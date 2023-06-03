@@ -30,11 +30,11 @@ $(document).ready(function () {
             $("#exact_age").html(
                 'You are<br/><span id="age">' +
                 year_age +
-                " years " +
+                " Years " +
                 month_age +
-                " months " +
+                " Months " +
                 day_age +
-                " days</span> old"
+                " Days</span> old"
             );
         }
     });
